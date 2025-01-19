@@ -8,7 +8,7 @@ import static java.lang.Math.PI;
 
 public class LocationAPI {
     //key gotten from the access token on locationIQ
-    private static final String API_KEY = "pk.61379ea74703db325a4efd1b49617d76";
+    private static final String API_KEY;
     private static final String BASE_URL = "https://us1.locationiq.com/v1/search.php";
     // forward geocoding, getting coordinates for an address
     public String[] getCoordinates(String address) {
